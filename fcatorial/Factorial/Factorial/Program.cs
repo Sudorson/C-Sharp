@@ -12,19 +12,19 @@ namespace Factorial
         {
             Console.WriteLine("Please enter the number ");
             int tangetNumber = Convert.ToInt32(Console.ReadLine());
-            if (tangetNumber==0)
+            if (tangetNumber == 0)
             {
                 Console.WriteLine("Factorial Is 1");
             }
-            else if (tangetNumber<0)
+            else if (tangetNumber < 0)
             {
                 Console.WriteLine("please enter a positive number");
             }
-            else 
+            else
             {
                 Double factorial = 1;
 
-                for (int i = tangetNumber; i >=1; i--)
+                for (int i = tangetNumber; i >= 1; i--)
                 {
                     factorial = factorial * i;
                 }
